@@ -1,0 +1,20 @@
+*~
+/husky_description  
+/husky_navigation  
+/LMS1xx-0.1.6
+/husky_base      
+/husky_desktop      
+/husky_robot   
+/husky_bringup   
+/husky_gazebo       
+/husky_simulator   
+/ur_description
+/husky_control   
+/husky_msgs         
+/husky_viz
+/README.md
+/CMakeLists.txt
+# Catkin custom files
+CATKIN_IGNORE
+
+*.pyc
