@@ -1,5 +1,17 @@
 husky
 =====
+To ride husky you should install twist teleop: 
+
+sudo apt-get install ros-kinetic-teleop- twist-keyboard
+
+And launch: 
+
+roslaunch husky_gazebo husky_empty_world.launch
+
+Then run teleop: 
+
+rosrun teleop_twist_keyboard teleop_twist_keyboard.py
+
 
 Common ROS packages for the Clearpath Husky, useable for both simulation and
 real robot operation.
