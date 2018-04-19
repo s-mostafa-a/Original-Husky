@@ -35,6 +35,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
 
   <arg name="laser_enabled" default="$(optenv HUSKY_LMS1XX_ENABLED false)"/>
   <arg name="kinect_enabled" default="$(optenv HUSKY_UR5_ENABLED false)"/>
+  <arg name="ur5_enabled" default="true"/>
   <arg name="urdf_extras" default="$(optenv HUSKY_URDF_EXTRAS)"/>
 
   <group ns="$(arg robot_namespace)">
@@ -43,6 +44,7 @@ ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSI
       <arg name="robot_namespace" value="$(arg robot_namespace)"/>
       <arg name="laser_enabled" default="$(arg laser_enabled)"/>
       <arg name="kinect_enabled" default="$(arg kinect_enabled)"/>
+      <arg name="ur5_enabled" default="$(arg ur5_enabled)"/>
       <arg name="urdf_extras" default="$(arg urdf_extras)"/>
     </include>
 
